@@ -6,3 +6,5 @@
 
 需要 python 3.6.5
     Scrapy 1.5.0
+    
+    youtube 网站需要翻墙， 在middlewares.py 的YoutubeDownloaderMiddleware类中process_request方法设置你的代理
